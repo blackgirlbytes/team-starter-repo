@@ -15,6 +15,8 @@ This repo includes skills that work with **Goose**, **Claude Code**, **Cursor**,
 | `replay-cypress` | Set up and use Replay with Cypress tests |
 | `replay-mcp` | Use Replay MCP server for debugging |
 | `replay-playwright` | Set up and use Replay with Playwright tests |
+| `react-best-practices` | React/Next.js performance optimization - 58 rules from Vercel |
+| `composition-patterns` | React composition patterns - compound components, state management |
 
 ### Usage
 
@@ -38,21 +40,15 @@ npx skills add blackgirlbytes/team-starter-repo
 .claude/skills/    # For Goose, Claude Code
 .cursor/skills/    # For Cursor
 ├── frontend-design/
-│   └── SKILL.md
 ├── create-mcp-app/
-│   └── SKILL.md
 ├── shadcn/
-│   ├── SKILL.md
-│   ├── cli.md
-│   ├── customization.md
-│   ├── mcp.md
 │   └── rules/
 ├── replay-cli/
-│   └── SKILL.md
 ├── replay-cypress/
-│   └── SKILL.md
 ├── replay-mcp/
-│   └── SKILL.md
-└── replay-playwright/
-    └── SKILL.md
+├── replay-playwright/
+├── react-best-practices/
+│   └── rules/
+└── composition-patterns/
+    └── rules/
 ```
