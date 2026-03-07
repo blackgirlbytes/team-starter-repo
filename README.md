@@ -4,7 +4,7 @@ Shared resources for the team including agent skills, hints, and more.
 
 ## Skills
 
-This repo includes skills that work with **Goose**, **Claude Code**, **Cursor**, and other agents that support the `.claude/skills/` format.
+This repo includes skills that work with **Goose**, **Claude Code**, **Cursor**, and other agents.
 
 | Skill | Description |
 |-------|-------------|
@@ -31,21 +31,21 @@ npx skills add blackgirlbytes/team-starter-repo
 ## Structure
 
 ```
-.claude/
-└── skills/
-    ├── frontend-design/
-    │   └── SKILL.md
-    ├── create-mcp-app/
-    │   └── SKILL.md
-    └── shadcn/
-        ├── SKILL.md
-        ├── cli.md
-        ├── customization.md
-        ├── mcp.md
-        └── rules/
-            ├── base-vs-radix.md
-            ├── composition.md
-            ├── forms.md
-            ├── icons.md
-            └── styling.md
+.claude/skills/    # For Goose, Claude Code
+.cursor/skills/    # For Cursor
+├── frontend-design/
+│   └── SKILL.md
+├── create-mcp-app/
+│   └── SKILL.md
+└── shadcn/
+    ├── SKILL.md
+    ├── cli.md
+    ├── customization.md
+    ├── mcp.md
+    └── rules/
+        ├── base-vs-radix.md
+        ├── composition.md
+        ├── forms.md
+        ├── icons.md
+        └── styling.md
 ```
