@@ -10,6 +10,7 @@ This repo includes skills that work with **Goose**, **Claude Code**, **Cursor**,
 |-------|-------------|
 | `frontend-design` | Create distinctive, production-grade frontend interfaces with high design quality |
 | `create-mcp-app` | Build MCP Apps with interactive UIs for MCP-enabled hosts |
+| `shadcn` | Build with shadcn/ui components - CLI commands, theming, composition patterns |
 
 ### Usage
 
@@ -34,6 +35,17 @@ npx skills add blackgirlbytes/team-starter-repo
 └── skills/
     ├── frontend-design/
     │   └── SKILL.md
-    └── create-mcp-app/
-        └── SKILL.md
+    ├── create-mcp-app/
+    │   └── SKILL.md
+    └── shadcn/
+        ├── SKILL.md
+        ├── cli.md
+        ├── customization.md
+        ├── mcp.md
+        └── rules/
+            ├── base-vs-radix.md
+            ├── composition.md
+            ├── forms.md
+            ├── icons.md
+            └── styling.md
 ```
